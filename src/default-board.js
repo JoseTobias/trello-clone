@@ -1,3 +1,5 @@
+import { uuid } from './utils'
+
 export default {
   name: 'workshop',
   columns: [
@@ -7,19 +9,19 @@ export default {
         {
           description: '',
           name: 'first task',
-          id: '1',
+          id: uuid(),
           userAssigned: null
         },
         {
           description: '',
           name: 'second task',
-          id: '2',
+          id: uuid(),
           userAssigned: null
         },
         {
           description: '',
           name: 'and thrid',
-          id: '3',
+          id: uuid(),
           userAssigned: null
         }
       ]
@@ -30,7 +32,7 @@ export default {
         {
           description: '',
           name: 'first task',
-          id: '4',
+          id: uuid(),
           userAssigned: null
         }
       ]
@@ -41,7 +43,7 @@ export default {
         {
           description: '',
           name: 'first task',
-          id: '5',
+          id: uuid(),
           userAssigned: null
         }
       ]
