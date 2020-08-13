@@ -1,5 +1,3 @@
-# watch-us-build-trello
-
 ## Project setup
 ```
 npm install
